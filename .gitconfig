@@ -1,0 +1,14 @@
+[core]
+	editor = \"C:\\Users\\utilisateur\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+[user]
+	mail = mariana.chevalier.mc@gmail.com
+	name = Mariana
+	email = mariana.chevalier.mc@gmail.com
+[color]
+	ui = true
+	iu = true
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
